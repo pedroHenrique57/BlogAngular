@@ -1,0 +1,4 @@
+<section [ngSwitch]="isDesktopScreenSize">
+  <section *ngSwitchCase="true"><app-left-navigation-bar-desktop></app-left-navigation-bar-desktop></section>
+  <section *ngSwitchCase="false"><app-left-navigation-bar-mobile></app-left-navigation-bar-mobile></section>
+</section>
