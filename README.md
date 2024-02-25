@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Design of web site
+
+The website design was created by Syahrul Falah and is available on dibbble.
+You can check out the project at this [link](https://dribbble.com/shots/20053757-Kaloka-Social-Media-Platform).
+
+

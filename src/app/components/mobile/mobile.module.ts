@@ -1,14 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LeftNavigationBarMobileComponent } from "./left-navigation-bar-mobile/left-navigation-bar-mobile.component";
-
-
+import { LeftNavigationBarMobileComponent } from './left-navigation-bar-mobile/left-navigation-bar-mobile.component';
 
 @NgModule({
   declarations: [],
-  imports: [
-    CommonModule,
-    LeftNavigationBarMobileComponent
-  ]
+  imports: [CommonModule, LeftNavigationBarMobileComponent],
+  exports: [LeftNavigationBarMobileComponent],
 })
-export class MobileModule { }
+export class MobileModule {}

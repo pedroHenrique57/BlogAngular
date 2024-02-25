@@ -2,3 +2,26 @@
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+// Dark Theme
+:root {
+  --background-color: #17181c;
+  --border-color: #424650;
+  --primary-hud-color: #1e1f24;
+  --secondary-hud-color: #27292f;
+  --primary-font-color: #f5f5f6;
+  --secondary-font-color: #87898c;
+  --hover-background-color: #25272d;
+  --hover-text-color: #2a86ff;
+}
+
+* {
+  box-sizing: border-box;
+  border: none;
+  font-family: 'Noto Sans', sans-serif;
+  font-optical-sizing: auto;
+  // Distance between letters 62.5 ~~ 100
+  font-variation-settings: 'wdth' 100;
+  margin: 0;
+  padding: 0;
+}

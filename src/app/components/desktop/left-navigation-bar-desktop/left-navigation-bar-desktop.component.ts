@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './left-navigation-bar-desktop.component.html',
-  styleUrl: './left-navigation-bar-desktop.component.scss'
+  styleUrl: './left-navigation-bar-desktop.component.scss',
 })
-export class LeftNavigationBarDesktopComponent {
-
-}
+export class LeftNavigationBarDesktopComponent {}
