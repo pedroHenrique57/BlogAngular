@@ -8,6 +8,10 @@
   flex-direction: row;
 }
 
+* {
+  margin: 0;
+}
+
 .notificationCard {
   display: flex;
   justify-self: self-end;
@@ -73,12 +77,12 @@
 
   .logo {
     font-size: 1.6rem;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
     font-weight: 500;
     color: var(--hover-text-color);
 
     img {
-      margin: 0 10px 0 10px;
+      margin: 0 10px;
     }
   }
 
@@ -90,7 +94,7 @@
     align-items: center;
     background-color: transparent;
     padding: 15px 0 15px 0;
-    margin: 0 10px 0 10px;
+    margin: 0 10px;
     border-radius: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
     color: var(--secondary-font-color);
@@ -101,7 +105,7 @@
     }
 
     span {
-      margin: 0 10px 0 10px;
+      margin: 0 10px;
     }
 
     .material-symbols-outlined {
@@ -127,7 +131,7 @@
   @include flexCol();
   align-self: start;
   color: var(--primary-font-color);
-  margin: 0 7.5% 0 7.5%;
+  margin: 0 7.5%;
 
   div {
     display: grid;
@@ -136,7 +140,6 @@
   }
 
   p {
-    margin: 0;
     font-size: 1rem;
     font-weight: 200;
     color: var(--primary-font-color);
@@ -147,7 +150,7 @@
   @include flexCol();
   align-self: start;
   color: var(--primary-font-color);
-  margin: 0 7.5% 0 7.5%;
+  margin: 0 7.5%;
 
   div {
     display: grid;
@@ -156,7 +159,6 @@
   }
 
   p {
-    margin: 0;
     font-size: 1rem;
     font-weight: 200;
     color: var(--primary-font-color);

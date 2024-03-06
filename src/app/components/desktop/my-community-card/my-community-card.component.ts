@@ -8,9 +8,9 @@ import { Component, Input } from '@angular/core';
   styleUrl: './my-community-card.component.scss',
 })
 export class MyCommunityCardComponent {
-  @Input() public linkFoto: string = '';
+  @Input() public linkImage: string = '';
 
-  @Input() public nomeComunidade: string = '';
+  @Input() public CommunityName: string = '';
 
-  @Input() public membrosTotais: string = '';
+  @Input() public totalMembers: string = '';
 }
