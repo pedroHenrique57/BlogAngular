@@ -1,4 +1,25 @@
 <section [ngSwitch]="isDesktopScreenSize">
-  <section *ngSwitchCase="true"><app-left-navigation-bar-desktop></app-left-navigation-bar-desktop></section>
-  <section *ngSwitchCase="false"><app-left-navigation-bar-mobile></app-left-navigation-bar-mobile></section>
+  <section *ngSwitchCase="true" class="desktop-page">
+    <app-left-navigation-bar-desktop
+      class="left-nav-content"
+    ></app-left-navigation-bar-desktop>
+
+    <section class="page-content">
+      <app-top-navigation-bar-desktop
+        class="top-nav-bar"
+      ></app-top-navigation-bar-desktop>
+      
+      <section class="down-side">
+        <section>conteudo novo</section>
+        <section class="right-side2">
+          <section>parte1</section>
+          <section>parte2</section>
+          <section>parte3</section>
+        </section>
+      </section>
+    </section>
+  </section>
+  <section *ngSwitchCase="false">
+    <app-left-navigation-bar-mobile></app-left-navigation-bar-mobile>
+  </section>
 </section>

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: var(--primary-hud-color);
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+
+  .actual-page {
+    .material-symbols-outlined {
+      //wght = Line Weight | GRAD = symbol's thickness | opsz = Optical Size range || FILL = filled or not 0 || 1
+      font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      color: var(white);
+    }
+
+    h4 {
+      display: flex;
+      align-items: center;
+
+      span {
+        margin: 0 10px;
+      }
+    }
+  }
+
+  .nav-buttons {
+    margin-left: 10px;
+    height: 40px;
+    background-color: var(--secondary-hud-color);
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+
+    button {
+      text-align: start;
+      justify-items: start;
+      background-color: inherit;
+      height: 80%;
+      padding: 0 10px;
+      margin: 2px 2px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      color: var(--secondary-font-color);
+    }
+
+    button:hover {
+      background-color: var(--selected-color);
+      color: white
+    }
+  }
+}

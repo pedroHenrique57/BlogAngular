@@ -1,0 +1,28 @@
+// Desktop Setion
+
+.desktop-page {
+  display: grid;
+  grid-template-columns:min-content auto;
+}
+
+.left-nav-content {
+width: fit-content;
+}
+
+.page-content {
+  background-color: purple;
+}
+
+.down-side {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: blue;
+}
+
+.right-side2 {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+}
+
+// Mobile Section
